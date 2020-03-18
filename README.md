@@ -42,4 +42,4 @@ Control records
 
 [_Get back to the bigger story._](https://medium.com/@danianepg/database-migrations-with-liquibase-and-flyway-5946379c7738)
 
-[_Originally post on my Medium stories._](https://medium.com/@danianepg/flyway-b91f53debede?source=friends_link&sk=8535e07de61e84ba6ecce0bff818d02a)
+[_Originally posted on my Medium stories._](https://medium.com/@danianepg/flyway-b91f53debede?source=friends_link&sk=8535e07de61e84ba6ecce0bff818d02a)
