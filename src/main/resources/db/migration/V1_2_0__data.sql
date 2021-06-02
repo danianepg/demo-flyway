@@ -1,2 +1,2 @@
-INSERT INTO person(name, powers) VALUES('Daniane', 'Eat a whole pizza');
-INSERT INTO person(name, powers) VALUES('Franco', 'Cooking');
+INSERT INTO person(name, powers) VALUES('Daniane', 'Knows what a proparoxitona is.');
+INSERT INTO person(name, powers) VALUES('Franco', 'Cooks delightfully.');

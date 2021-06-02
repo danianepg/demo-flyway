@@ -50,11 +50,11 @@
 			    <artifactId>flyway-maven-plugin</artifactId>
 			    <configuration>
 			        <driver>com.mysql.cj.jdbc.Driver</driver>
-                    <url>jdbc:mysql://localhost:3306/demo-flyway</url>
-                    <user>demo-flyway</user>
-                    <password>demo-flyway</password>
+                    <url>jdbc:mysql://localhost:3306/demo_flyway</url>
+                    <user>root</user>
+                    <password>root</password>
                     <schemas>
-                        <schema>demo-flyway</schema>
+                        <schema>demo_flyway</schema>
                     </schemas>
 			    </configuration><!--$NO-MVN-MAN-VER$-->
 			</plugin>
