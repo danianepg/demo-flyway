@@ -25,12 +25,13 @@ public class PersonCompatibilityService_State4 {
 
 	// State 4 for application and V1_4_0 for database: Code reads and writes from
 	// the new column
-	public void setName(String name) {
+	public void save(String name) {
 		Person p = new Person();
 		p.setFullname(name);
+		repository.save(p);
 	}
 
-	public String getName(Long id) {
+	public String findNameById(Long id) {
 		Optional<Person> p = repository.findById(id);
 
 		if (p.isPresent()) {

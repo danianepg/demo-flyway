@@ -17,6 +17,7 @@ public class Person implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
+	// Should be removed on version V1_5_0 
 	private String name;
 
 	private String powers;

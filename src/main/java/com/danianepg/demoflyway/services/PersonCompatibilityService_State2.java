@@ -26,13 +26,14 @@ public class PersonCompatibilityService_State2 {
 	// State 2 for application and V1_4_0 for database: Code reads from the old
 	// column and writes on both
 	// V1_4_1 is also executed and data is copied in small shards
-	public void setName(String name) {
+	public void save(String name) {
 		Person p = new Person();
 		p.setName(name);
 		p.setFullname(name);
+		repository.save(p);
 	}
 
-	public String getName(Long id) {
+	public String findNameById(Long id) {
 		Optional<Person> p = repository.findById(id);
 
 		if (p.isPresent()) {

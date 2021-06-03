@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class PersonCompatibilityService_State5 {
 
-	// State 5 for application: remove attribute name from Person and its references
+	// State 5 for application: remove attribute name from entity Person.java and its references 
 	// V1_5_0 for database: drop column name
 
 }

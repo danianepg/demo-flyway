@@ -24,12 +24,13 @@ public class PersonCompatibilityService_State1 {
 	}
 
 	// State 1 for application and V1_1_0 to V1_3_0 for the database
-	public void setName(String name) {
+	public void save(String name) {
 		Person p = new Person();
 		p.setName(name);
+		repository.save(p);
 	}
 
-	public String getName(Long id) {
+	public String findNameById(Long id) {
 		Optional<Person> p = repository.findById(id);
 
 		if (p.isPresent()) {
