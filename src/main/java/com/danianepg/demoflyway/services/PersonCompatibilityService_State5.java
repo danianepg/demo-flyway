@@ -1,0 +1,18 @@
+package com.danianepg.demoflyway.services;
+
+import org.springframework.stereotype.Service;
+
+/**
+ * DUMMY CODE!!! This service is an DUMMY example on how to handle a column
+ * rename migration. It's not suitable for production environments.
+ * 
+ * @author Daniane
+ *
+ */
+@Service
+public class PersonCompatibilityService_State5 {
+
+	// State 5 for application: remove attribute name from Person and its references
+	// V1_5_0 for database: drop column name
+
+}

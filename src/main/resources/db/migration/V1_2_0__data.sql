@@ -1,2 +1,10 @@
-INSERT INTO person(name, powers) VALUES('Daniane', 'Knows what a proparoxitona is.');
-INSERT INTO person(name, powers) VALUES('Franco', 'Cooks delightfully.');
+INSERT INTO person(name, powers) VALUES('Daniane P. Gomes', 'Knows what a proparoxitona is');
+INSERT INTO person(name, powers) VALUES('Franckson Sirena', 'Cooks delightfully');
+INSERT INTO person(name, powers) VALUES('Hermione Granger', 'Psionic Blast');
+INSERT INTO person(name, powers) VALUES('Thomas Shelby', 'Waterbreathing');
+INSERT INTO person(name, powers) VALUES('Daario Naharis', 'Superhuman Invention Skill');
+INSERT INTO person(name, powers) VALUES('June Osborne', 'Danger Warning');
+INSERT INTO person(name, powers) VALUES('Amy Farrah Fowler', 'Super Mentality');
+INSERT INTO person(name, powers) VALUES('Yusuke Urameshi', 'Telepathy');
+INSERT INTO person(name, powers) VALUES('Lagertha', 'Phasing');
+INSERT INTO person(name, powers) VALUES('Eleanor Shellstrop', 'Super Learning');

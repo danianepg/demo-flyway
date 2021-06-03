@@ -10,19 +10,22 @@ import javax.persistence.Id;
 
 @Entity
 public class Person implements Serializable {
-	
+
 	private static final long serialVersionUID = 1L;
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
 	private String name;
-	
+
 	private String powers;
-	
+
 	// Added on version V1_3_0
 	private String hobbies;
+
+	// Added on version V1_4_0
+	private String fullname;
 
 	public Long getId() {
 		return id;
@@ -56,26 +59,12 @@ public class Person implements Serializable {
 		this.hobbies = hobbies;
 	}
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(hobbies, id, name, powers);
+	public String getFullname() {
+		return fullname;
 	}
 
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Person other = (Person) obj;
-		return Objects.equals(hobbies, other.hobbies) && Objects.equals(id, other.id)
-				&& Objects.equals(name, other.name) && Objects.equals(powers, other.powers);
+	public void setFullname(String fullname) {
+		this.fullname = fullname;
 	}
-
-	
-	
-	
 
 }

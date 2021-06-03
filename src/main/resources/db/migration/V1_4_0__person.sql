@@ -1,0 +1,1 @@
+ALTER TABLE person ADD fullname varchar(20);
