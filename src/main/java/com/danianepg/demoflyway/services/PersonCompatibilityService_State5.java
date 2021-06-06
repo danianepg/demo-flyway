@@ -3,7 +3,7 @@ package com.danianepg.demoflyway.services;
 import org.springframework.stereotype.Service;
 
 /**
- * DUMMY CODE!!! This service is an DUMMY example on how to handle a column
+ * SAMPLE CODE!!! This service is an SAMPLE example on how to handle a column
  * rename migration. It's not suitable for production environments.
  * 
  * @author Daniane

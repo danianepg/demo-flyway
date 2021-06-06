@@ -8,7 +8,7 @@ import com.danianepg.demoflyway.entities.Person;
 import com.danianepg.demoflyway.repositories.PersonRepository;
 
 /**
- * DUMMY CODE!!! This service is an DUMMY example on how to handle a column
+ * SAMPLE CODE!!! This service is an SAMPLE example on how to handle a column
  * rename migration. It's not suitable for production environments.
  * 
  * @author Daniane
