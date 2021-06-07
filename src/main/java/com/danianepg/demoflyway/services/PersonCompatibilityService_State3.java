@@ -1,7 +1,5 @@
 package com.danianepg.demoflyway.services;
 
-import java.util.Optional;
-
 import org.springframework.stereotype.Service;
 
 import com.danianepg.demoflyway.entities.Person;
@@ -33,13 +31,9 @@ public class PersonCompatibilityService_State3 {
 	}
 
 	public String findNameById(Long id) {
-		Optional<Person> p = repository.findById(id);
-
-		if (p.isPresent()) {
-			return p.get().getFullname();
-		}
-
-		return null;
+		return repository.findById(id)
+				.orElseThrow()
+				.getFullname();
 	}
 
 }
